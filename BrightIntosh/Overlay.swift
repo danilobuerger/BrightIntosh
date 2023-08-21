@@ -46,7 +46,15 @@ class Overlay: MTKView, MTKViewDelegate {
             layer.pixelFormat = .rgba16Float
         }
         
+        
+        
         screenUpdate(screen: screen)
+    }
+    
+    func activateHighlightMode() {
+        if let layer = self.layer as? CAMetalLayer {
+            layer.compositingFilter = "multiply"
+        }
     }
     
     required init(coder: NSCoder) {
@@ -59,7 +67,7 @@ class Overlay: MTKView, MTKViewDelegate {
         let maxRenderedEdrValue = screen.maximumReferenceExtendedDynamicRangeColorComponentValue
         
         let factor = maxEdrValue / max(maxRenderedEdrValue, 1.0) - 1.0
-        clearColor = MTLClearColorMake(factor, factor, factor, 1.0)
+        clearColor = MTLClearColorMake(factor, factor, 0.0, 1.0)
     }
     
     func draw(in view: MTKView) {

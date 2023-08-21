@@ -82,6 +82,13 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
             name: NSApplication.didChangeScreenParametersNotification,
             object: nil)
         
+        // Observe applications
+        NSWorkspace.shared.notificationCenter.addObserver(
+            self,
+            selector: #selector(handleWindowChange(notification:)),
+            name: NSWorkspace.didActivateApplicationNotification,
+            object: nil)
+        
         // Menu bar app
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
         
@@ -119,7 +126,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         let rect = NSRect(x: screen.visibleFrame.origin.x, y: screen.visibleFrame.origin.y, width: 1, height: 1)
         overlayWindow = OverlayWindow(rect: rect, screen: screen)
         overlayAvailable = true
-        adjustGammaTable(screen: screen)
+        //adjustGammaTable(screen: screen)
     }
     
     func destroyOverlay() {
@@ -328,6 +335,11 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         } else {
             destroyOverlay()
         }
+    }
+    
+    @objc func handleWindowChange(notification: Notification) {
+        print("Alarm!")
+        overlayWindow?.getActiveWindow(verbose: true)
     }
     
     @objc func exitBrightIntosh() {
