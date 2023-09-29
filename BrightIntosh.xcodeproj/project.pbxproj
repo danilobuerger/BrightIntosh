@@ -8,14 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		9C380FF12A8A8922000A6566 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 9C380FF02A8A8922000A6566 /* Sparkle */; };
-		9C8803722A718BFA00476017 /* HotKeyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8803712A718BFA00476017 /* HotKeyUtils.swift */; };
-		9C8803752A72625E00476017 /* HotKeyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8803712A718BFA00476017 /* HotKeyUtils.swift */; };
+		9C4163702AB7198B005B34B6 /* SettingsWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C41636F2AB7198B005B34B6 /* SettingsWindow.swift */; };
+		9C4163712AB7198B005B34B6 /* SettingsWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C41636F2AB7198B005B34B6 /* SettingsWindow.swift */; };
+		9C4163742ABD8EE9005B34B6 /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = 9C4163732ABD8EE9005B34B6 /* KeyboardShortcuts */; };
+		9C4163772ABD8FA4005B34B6 /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = 9C4163762ABD8FA4005B34B6 /* KeyboardShortcuts */; };
+		9C4163792ABD8FBD005B34B6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4163782ABD8FBD005B34B6 /* Constants.swift */; };
+		9C41637A2ABD8FBD005B34B6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4163782ABD8FBD005B34B6 /* Constants.swift */; };
+		9C5610502ABF55A90066D6C9 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C56104F2ABF55A90066D6C9 /* Settings.swift */; };
+		9C5610512ABF55A90066D6C9 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C56104F2ABF55A90066D6C9 /* Settings.swift */; };
 		9C8803762A72625E00476017 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF94512A5EF20E00FA285F /* AppDelegate.swift */; };
 		9C8803772A72625E00476017 /* OverlayWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D044EA2A60205E0022B970 /* OverlayWindow.swift */; };
 		9C8803782A72625E00476017 /* AccessibilityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBD4E942A67E9F600C7A625 /* AccessibilityService.swift */; };
 		9C88037A2A72625E00476017 /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF94502A5EF20E00FA285F /* Overlay.swift */; };
 		9C88037B2A72625E00476017 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B521142A5EF85500E9B7AC /* main.swift */; };
 		9C88037E2A72625E00476017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C9C78022A62AEE800778CAE /* Assets.xcassets */; };
+		9C8FA26B2AB058310049C0D1 /* WelcomeWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8FA26A2AB058310049C0D1 /* WelcomeWindow.swift */; };
+		9C8FA26C2AB058310049C0D1 /* WelcomeWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8FA26A2AB058310049C0D1 /* WelcomeWindow.swift */; };
 		9C9C78032A62AEE800778CAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C9C78022A62AEE800778CAE /* Assets.xcassets */; };
 		9CBD4E952A67E9F600C7A625 /* AccessibilityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBD4E942A67E9F600C7A625 /* AccessibilityService.swift */; };
 		C1031D582A86742E001EE05B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1031D572A86742E001EE05B /* AppDelegate.swift */; };
@@ -41,8 +49,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9C8803712A718BFA00476017 /* HotKeyUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKeyUtils.swift; sourceTree = "<group>"; };
-		9C8803822A72625E00476017 /* BrightIntosh  (Store Editon).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BrightIntosh  (Store Editon).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C41636F2AB7198B005B34B6 /* SettingsWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWindow.swift; sourceTree = "<group>"; };
+		9C4163782ABD8FBD005B34B6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9C56104F2ABF55A90066D6C9 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		9C8803822A72625E00476017 /* BrightIntosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrightIntosh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8FA26A2AB058310049C0D1 /* WelcomeWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeWindow.swift; sourceTree = "<group>"; };
 		9C9C78022A62AEE800778CAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CBD4E942A67E9F600C7A625 /* AccessibilityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityService.swift; sourceTree = "<group>"; };
 		9CEB41EE2A9236D7005D7A0D /* BrightIntosh.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = BrightIntosh.entitlements; sourceTree = "<group>"; };
@@ -66,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C4163772ABD8FA4005B34B6 /* KeyboardShortcuts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,12 +93,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C380FF12A8A8922000A6566 /* Sparkle in Frameworks */,
+				9C4163742ABD8EE9005B34B6 /* KeyboardShortcuts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C4163752ABD8FA4005B34B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C1031D562A86742E001EE05B /* AutoLauncher */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +125,7 @@
 				C1DF94472A5EF20000FA285F /* BrightIntosh */,
 				C1031D562A86742E001EE05B /* AutoLauncher */,
 				C1DF94462A5EF20000FA285F /* Products */,
+				9C4163752ABD8FA4005B34B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,7 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				C1B521482A5EFF5800E9B7AC /* BrightIntosh.app */,
-				9C8803822A72625E00476017 /* BrightIntosh  (Store Editon).app */,
+				9C8803822A72625E00476017 /* BrightIntosh.app */,
 				C1031D552A86742E001EE05B /* AutoLauncher.app */,
 			);
 			name = Products;
@@ -128,9 +149,12 @@
 				C1D044EA2A60205E0022B970 /* OverlayWindow.swift */,
 				9C9C78022A62AEE800778CAE /* Assets.xcassets */,
 				9CBD4E942A67E9F600C7A625 /* AccessibilityService.swift */,
-				9C8803712A718BFA00476017 /* HotKeyUtils.swift */,
 				9CEB41EE2A9236D7005D7A0D /* BrightIntosh.entitlements */,
 				9CEB41EF2A923723005D7A0D /* BrightIntosh_SE.entitlements */,
+				9C8FA26A2AB058310049C0D1 /* WelcomeWindow.swift */,
+				9C41636F2AB7198B005B34B6 /* SettingsWindow.swift */,
+				9C4163782ABD8FBD005B34B6 /* Constants.swift */,
+				9C56104F2ABF55A90066D6C9 /* Settings.swift */,
 			);
 			path = BrightIntosh;
 			sourceTree = "<group>";
@@ -138,9 +162,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9C8803732A72625E00476017 /* BrightIntosh  (Store Editon) */ = {
+		9C8803732A72625E00476017 /* BrightIntosh (Store Editon) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C88037F2A72625E00476017 /* Build configuration list for PBXNativeTarget "BrightIntosh  (Store Editon)" */;
+			buildConfigurationList = 9C88037F2A72625E00476017 /* Build configuration list for PBXNativeTarget "BrightIntosh (Store Editon)" */;
 			buildPhases = (
 				9C8803742A72625E00476017 /* Sources */,
 				9C88037C2A72625E00476017 /* Frameworks */,
@@ -150,9 +174,12 @@
 			);
 			dependencies = (
 			);
-			name = "BrightIntosh  (Store Editon)";
+			name = "BrightIntosh (Store Editon)";
+			packageProductDependencies = (
+				9C4163762ABD8FA4005B34B6 /* KeyboardShortcuts */,
+			);
 			productName = BrightIntosh;
-			productReference = 9C8803822A72625E00476017 /* BrightIntosh  (Store Editon).app */;
+			productReference = 9C8803822A72625E00476017 /* BrightIntosh.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C1031D542A86742E001EE05B /* AutoLauncher */ = {
@@ -188,6 +215,7 @@
 			name = BrightIntosh;
 			packageProductDependencies = (
 				9C380FF02A8A8922000A6566 /* Sparkle */,
+				9C4163732ABD8EE9005B34B6 /* KeyboardShortcuts */,
 			);
 			productName = BrightIntosh;
 			productReference = C1B521482A5EFF5800E9B7AC /* BrightIntosh.app */;
@@ -226,13 +254,14 @@
 			mainGroup = C1DF943C2A5EF20000FA285F;
 			packageReferences = (
 				9C380FEF2A8A8922000A6566 /* XCRemoteSwiftPackageReference "Sparkle" */,
+				9C4163722ABD8EE9005B34B6 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
 			);
 			productRefGroup = C1DF94462A5EF20000FA285F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				C1B521472A5EFF5800E9B7AC /* BrightIntosh */,
-				9C8803732A72625E00476017 /* BrightIntosh  (Store Editon) */,
+				9C8803732A72625E00476017 /* BrightIntosh (Store Editon) */,
 				C1031D542A86742E001EE05B /* AutoLauncher */,
 			);
 		};
@@ -269,12 +298,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C8803752A72625E00476017 /* HotKeyUtils.swift in Sources */,
+				9C4163712AB7198B005B34B6 /* SettingsWindow.swift in Sources */,
+				9C8FA26C2AB058310049C0D1 /* WelcomeWindow.swift in Sources */,
 				9C8803762A72625E00476017 /* AppDelegate.swift in Sources */,
+				9C5610512ABF55A90066D6C9 /* Settings.swift in Sources */,
 				9C8803772A72625E00476017 /* OverlayWindow.swift in Sources */,
 				9C8803782A72625E00476017 /* AccessibilityService.swift in Sources */,
 				9C88037A2A72625E00476017 /* Overlay.swift in Sources */,
 				9C88037B2A72625E00476017 /* main.swift in Sources */,
+				9C41637A2ABD8FBD005B34B6 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,12 +323,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C8803722A718BFA00476017 /* HotKeyUtils.swift in Sources */,
+				9C4163702AB7198B005B34B6 /* SettingsWindow.swift in Sources */,
+				9C8FA26B2AB058310049C0D1 /* WelcomeWindow.swift in Sources */,
 				C1B5215A2A5EFFDB00E9B7AC /* AppDelegate.swift in Sources */,
+				9C5610502ABF55A90066D6C9 /* Settings.swift in Sources */,
 				C1D044EB2A60205E0022B970 /* OverlayWindow.swift in Sources */,
 				9CBD4E952A67E9F600C7A625 /* AccessibilityService.swift in Sources */,
 				C1B5215C2A5EFFDB00E9B7AC /* Overlay.swift in Sources */,
 				C1B5215D2A5EFFDB00E9B7AC /* main.swift in Sources */,
+				9C4163792ABD8FBD005B34B6 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +348,7 @@
 				CODE_SIGN_ENTITLEMENTS = BrightIntosh/BrightIntosh_SE.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 25;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 9K32WDUN2H;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -338,9 +373,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.1.1;
+				MARKETING_VERSION = 1.3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = de.brightintosh.app;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BrightIntosh;
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = macosx;
 				SUPPORTS_MACCATALYST = NO;
@@ -362,7 +397,7 @@
 				CODE_SIGN_ENTITLEMENTS = BrightIntosh/BrightIntosh_SE.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 25;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 9K32WDUN2H;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -387,9 +422,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.1.1;
+				MARKETING_VERSION = 1.3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = de.brightintosh.app;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BrightIntosh;
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = macosx;
 				SUPPORTS_MACCATALYST = NO;
@@ -470,7 +505,7 @@
 				CODE_SIGN_ENTITLEMENTS = BrightIntosh/BrightIntosh.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 16;
+				CURRENT_PROJECT_VERSION = 25;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 9K32WDUN2H;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -496,7 +531,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.1.1;
+				MARKETING_VERSION = 1.3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = de.brightintosh.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -520,7 +555,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 16;
+				CURRENT_PROJECT_VERSION = 25;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 9K32WDUN2H;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -546,7 +581,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.1.1;
+				MARKETING_VERSION = 1.3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = de.brightintosh.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -674,7 +709,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9C88037F2A72625E00476017 /* Build configuration list for PBXNativeTarget "BrightIntosh  (Store Editon)" */ = {
+		9C88037F2A72625E00476017 /* Build configuration list for PBXNativeTarget "BrightIntosh (Store Editon)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C8803802A72625E00476017 /* Debug */,
@@ -721,6 +756,14 @@
 				minimumVersion = 2.0.0;
 			};
 		};
+		9C4163722ABD8EE9005B34B6 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/KeyboardShortcuts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -728,6 +771,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 9C380FEF2A8A8922000A6566 /* XCRemoteSwiftPackageReference "Sparkle" */;
 			productName = Sparkle;
+		};
+		9C4163732ABD8EE9005B34B6 /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C4163722ABD8EE9005B34B6 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
+		};
+		9C4163762ABD8FA4005B34B6 /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C4163722ABD8EE9005B34B6 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

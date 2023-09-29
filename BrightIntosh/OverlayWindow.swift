@@ -10,6 +10,7 @@ import Cocoa
 class OverlayWindow: NSWindow {
     
     private var overlay: Overlay?
+    private var overlayedScreen: NSScreen?
     
     private let highlightMode: Bool = true
     
@@ -18,7 +19,9 @@ class OverlayWindow: NSWindow {
     
     init(rect: NSRect, screen: NSScreen) {
         super.init(contentRect: rect, styleMask: [], backing: BackingStoreType(rawValue: 0)!, defer: false)
+        
         overlayedScreen = screen
+        
         var position = screen.frame.origin
         position.y += screen.frame.height
         
@@ -52,6 +55,10 @@ class OverlayWindow: NSWindow {
         }
         
         contentView = overlay
+    }
+    
+    func getScreen() -> NSScreen? {
+        return overlayedScreen
     }
     
     func screenUpdate(screen: NSScreen) {
