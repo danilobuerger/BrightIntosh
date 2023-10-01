@@ -14,7 +14,6 @@ class OverlayWindow: NSWindow {
     
     private let highlightMode: Bool = true
     
-    private var overlayedScreen: NSScreen?
     private var highlightTimer: Timer?
     
     init(rect: NSRect, screen: NSScreen) {
